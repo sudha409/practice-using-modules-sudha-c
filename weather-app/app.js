@@ -26,4 +26,9 @@ console.log("City:", argv.city);
 
 const weather = getWeather(argv.city);
 
-console.log(chalk.green(weather[0].temp));
+if(weather.length>0){
+console.log(` ${chalk.yellow(argv.city)} weather is  ${chalk.green(weather[0].temp) }`);
+}else{
+
+  console.log(` ${chalk.yellow(argv.city)} ${chalk.red("weather data not available")} `);
+}
