@@ -1,0 +1,25 @@
+{
+  "name": "practice-using-modules-sudha-c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudha409/practice-using-modules-sudha-c.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sudha409/practice-using-modules-sudha-c/issues"
+  },
+  "homepage": "https://github.com/sudha409/practice-using-modules-sudha-c#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^18.0.0"
+  }
+}
